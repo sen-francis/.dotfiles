@@ -10,8 +10,6 @@ vim.opt.termguicolors = true
 
 vim.opt.updatetime = 50
 
-vim.opt.colorcolumn = "80"
-
 vim.opt.scrolloff = 8
 
 vim.opt.smartindent = true
@@ -22,4 +20,4 @@ vim.opt.number = true
 
 vim.signcolum = "number"
 
-vim.opt.mouse = ""
+vim.opt.mousescroll = "ver:0,hor:0"
