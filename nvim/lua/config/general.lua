@@ -21,3 +21,5 @@ vim.opt.showmode = true
 vim.opt.number = true
 
 vim.signcolum = "number"
+
+vim.opt.mouse = ""
