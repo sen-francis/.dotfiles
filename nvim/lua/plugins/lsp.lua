@@ -45,6 +45,7 @@ return {
 				"lua_ls",
 				"ts_ls",
 				"gopls",
+				"cssls"
 			},
 			handlers = {
 				function(server_name) -- default handler (optional)
