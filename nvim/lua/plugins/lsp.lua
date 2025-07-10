@@ -126,5 +126,7 @@ return {
 				prefix = "",
 			},
 		})
+
+		vim.keymap.set('n', 'K', function() vim.lsp.buf.hover() end, {noremap = true})
 	end
 }
